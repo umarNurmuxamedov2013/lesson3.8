@@ -1,0 +1,553 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --bg-color: #202C36;
+    --bg-color2: #2B3844;
+    --color: #FFFFFF;
+    --font-f: Nunito Sans;
+    --list-style: none;
+    --text-decerition: none;
+}
+
+nav {
+    width: 100%;
+    background-color: var(--bg-color2);
+    height: 80px;
+    padding: 15px 0px;
+
+}
+
+.text_nav {
+    font-family: var(--font-f);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: var(--color);
+    cursor: pointer;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_text {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.dark {
+    font-family: var(--font-f);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--color);
+    cursor: pointer;
+}
+
+.oy {
+    width: 15px;
+    height: 13.75px;
+}
+a{
+    text-decoration: none;
+}
+
+
+input {
+    width: 480px;
+    height: 56px;
+    background-color: var(--bg-color2);
+    border: none;
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    padding-left: 74px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+body {
+    background-color: var(--bg-color);
+    width: 100%;
+    height: 1024px;
+}
+
+label {
+    position: absolute;
+    top: 147px;
+    left: 195px;
+}
+
+.germany {
+    width: 264px;
+    height: 336px;
+    margin-top: 48px;
+    background-color: var(--bg-color2);
+}
+
+.text_flag {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--color);
+    margin-top: 10px;
+    text-decoration: none;
+}
+    .text_flag2 {
+        list-style: none;
+        color: #FFFFFF;
+    }
+
+    .ger_text {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 26px;
+        color: #FFFFFF;
+
+    }
+
+    .germany_wrapper {
+        padding-left: 24px;
+        width: 264px;
+        height: 336px;
+
+    }
+
+    .flag {
+        width: 100%;
+        height: 160px;
+    }
+
+    .flags {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    @media screen and (max-width: 600px) {
+
+        :root {
+            --bg-color: #202C36;
+            --bg-color2: #2B3844;
+            --color: #FFFFFF;
+            --font-f: Nunito Sans;
+        }
+
+        nav {
+            width: 100%;
+            background-color: var(--bg-color2);
+            height: 80px;
+            padding: 15px 0px;
+
+        }
+
+        .text_nav {
+            font-family: var(--font-f);
+            font-style: normal;
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 33px;
+            color: var(--color);
+            cursor: pointer;
+        }
+
+        .container {
+            width: 343px;
+            margin: 0 auto;
+
+        }
+
+        .nav_wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .img_text {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .dark {
+            font-family: var(--font-f);
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 22px;
+            color: var(--color);
+            cursor: pointer;
+        }
+
+        .oy {
+            width: 15px;
+            height: 13.75px;
+        }
+
+        input {
+            width: 270px;
+            height: 56px;
+            background-color: var(--bg-color2);
+            border: none;
+            margin-top: 48px;
+            display: flex;
+            align-items: center;
+            padding-left: 74px;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            width: 100%;
+            height: 1024px;
+        }
+
+        label {
+            position: absolute;
+            top: 147px;
+            left: 160px;
+        }
+
+        .germany {
+            width: 270px;
+            height: 336px;
+            margin-top: 48px;
+            background-color: var(--bg-color2);
+
+        }
+
+        .text_flag {
+            font-family: 'Nunito Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 16px;
+            color: var(--color);
+            margin-top: 10px;
+        }
+
+        .text_flag2 {
+            color: gainsboro;
+        }
+
+        .ger_text {
+            font-family: 'Nunito Sans';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 26px;
+            color: #FFFFFF;
+
+        }
+
+        .germany_wrapper {
+            padding-left: 24px;
+            width: 264px;
+            height: 336px;
+
+        }
+
+        .flag {
+            width: 100%;
+        }
+
+        .flags {
+            /* /* display: flex; */
+            justify-content: space-between;
+            flex-direction: column;
+        }
+
+        
+    }
+
+    /* Media query for screens with a width between 601 and 768 pixels */
+    @media screen and (min-width: 601px) and (max-width: 768px) {
+
+        :root {
+            --bg-color: #202C36;
+            --bg-color2: #2B3844;
+            --color: #FFFFFF;
+            --font-f: Nunito Sans;
+        }
+
+        nav {
+            width: 100%;
+            background-color: var(--bg-color2);
+            height: 80px;
+            padding: 15px 0px;
+
+        }
+
+        .text_nav {
+            font-family: var(--font-f);
+            font-style: normal;
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 33px;
+            color: var(--color);
+            cursor: pointer;
+        }
+
+        .container {
+            width: 343px;
+            margin: 0 auto;
+
+        }
+
+        .nav_wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .img_text {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .dark {
+            font-family: var(--font-f);
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 22px;
+            color: var(--color);
+            cursor: pointer;
+        }
+
+        .oy {
+            width: 15px;
+            height: 13.75px;
+        }
+
+        input {
+            width: 270px;
+            height: 56px;
+            background-color: var(--bg-color2);
+            border: none;
+            margin-top: 48px;
+            display: flex;
+            align-items: center;
+            padding-left: 74px;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            width: 100%;
+            height: 1024px;
+        }
+
+        label {
+            position: absolute;
+            top: 147px;
+            left: 160px;
+        }
+
+        .germany {
+            width: 270px;
+            height: 336px;
+            margin-top: 48px;
+            background-color: var(--bg-color2);
+
+        }
+
+        .text_flag {
+            font-family: 'Nunito Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 16px;
+            color: var(--color);
+            margin-top: 10px;
+        }
+
+        .text_flag2 {
+            color: gainsboro;
+        }
+
+        .ger_text {
+            font-family: 'Nunito Sans';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 26px;
+            color: #FFFFFF;
+
+        }
+
+        .germany_wrapper {
+            padding-left: 24px;
+            width: 264px;
+            height: 336px;
+
+        }
+
+        .flag {
+            width: 100%;
+        }
+
+        .flags {
+            /* /* display: flex; */
+            justify-content: space-between;
+            flex-direction: column;
+        }
+
+    
+    }
+
+    /* Media query for screens with a width between 769 and 1024 pixels */
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+
+        :root {
+            --bg-color: #202C36;
+            --bg-color2: #2B3844;
+            --color: #FFFFFF;
+            --font-f: Nunito Sans;
+        }
+
+        nav {
+            width: 100%;
+            background-color: var(--bg-color2);
+            height: 80px;
+            padding: 15px 0px;
+
+        }
+
+        .text_nav {
+            font-family: var(--font-f);
+            font-style: normal;
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 33px;
+            color: var(--color);
+            cursor: pointer;
+        }
+
+        .container {
+            width: 343px;
+            margin: 0 auto;
+
+        }
+
+        .nav_wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .img_text {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .dark {
+            font-family: var(--font-f);
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 22px;
+            color: var(--color);
+            cursor: pointer;
+        }
+
+        .oy {
+            width: 15px;
+            height: 13.75px;
+        }
+
+        input {
+            width: 270px;
+            height: 56px;
+            background-color: var(--bg-color2);
+            border: none;
+            margin-top: 48px;
+            display: flex;
+            align-items: center;
+            padding-left: 74px;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            width: 100%;
+            height: 1024px;
+        }
+
+        label {
+            position: absolute;
+            top: 147px;
+            left: 160px;
+        }
+
+        .germany {
+            width: 270px;
+            height: 336px;
+            margin-top: 48px;
+            background-color: var(--bg-color2);
+
+        }
+
+        .text_flag {
+            font-family: 'Nunito Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 16px;
+            color: var(--color);
+            margin-top: 10px;
+        }
+
+        .text_flag2 {
+            color: gainsboro;
+        }
+
+        .ger_text {
+            font-family: 'Nunito Sans';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 26px;
+            color: #FFFFFF;
+
+        }
+
+        .germany_wrapper {
+            padding-left: 24px;
+            width: 264px;
+            height: 336px;
+
+        }
+
+        .flag {
+            width: 100%;
+        }
+
+        .flags {
+            /* /* display: flex; */
+            justify-content: space-between;
+            flex-direction: column;
+        }
+
+        
+    }

@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #202C36;
+    --bg-color2: #2B3844;
+    --color: #FFFFFF;
+    --font-f: Nunito Sans;
+    --list-style: none;
+    --text-decerition: none;
+}
+
+
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+nav {
+    width: 100%;
+    background-color: var(--bg-color2);
+    height: 80px;
+    padding: 15px 0px;
+
+}
+
+.img_text {
+    display: flex;
+    align-items: center;
+}
+
+.text_nav {
+    font-family: var(--font-f);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: var(--color);
+    cursor: pointer;
+
+}
+
+.nav_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_text {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.dark {
+    font-family: var(--font-f);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--color);
+    cursor: pointer;
+}
+
+
+.btn1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 136px;
+    height: 40px;
+    background-color: var(--bg-color2);
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+    text-decoration: none;
+    margin-top: 80px;
+    border-radius: 5px;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.belgium_img {
+    margin-top: 80px;
+}
+
+.left_right {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+
+}
+
+.belgium_text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.text1 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+
+
+}
+
+.text2 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    color: grey;
+
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn2 {
+    background: var(--bg-color2);
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.104931);
+    border-radius: 2px;
+    border: none;
+    width: 96px;
+    height: 28px;
+    color: #FFFFFF;
+}
+
+.buttons {
+    width: 451px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 68px;
+}
+
+.button_text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+
+}
